@@ -27,8 +27,8 @@ export default class VehicleInput extends Component {
               borderColor:this.props.selectedIndex == i ? commonStyle.themeColor : '#d3d9dc'
             },styles.itemBg]}
             key={i}
-            onPress={() => this.props.
-            onSelected(i)}>
+            onPress={() => this.props.onSelected(i)}
+          >
             <Text style={{fontSize:scaleSize(36),textAlignVertical: 'center',color: commonStyle.themeColor,}}>
               {this.props.titles[i]}
             </Text>
